@@ -79,7 +79,7 @@ int vtkImageAlgorithm::RequestData(
     this->ExecuteDataWithInformation( outInfo->Get(vtkDataObject::DATA_OBJECT()),
                                       outInfo );
   }
-  else
+Y  else
   {
     this->ExecuteData(NULL);
   }

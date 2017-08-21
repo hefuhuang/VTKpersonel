@@ -14,7 +14,8 @@ vtk_add_test_cxx(${vtk-module}CxxTests tests
 
 # Each of these most be added in a separate vtk_add_test_cxx
 vtk_add_test_cxx(${vtk-module}CxxTests tests
-  TestXMLReaderBadImageData,TestXMLReaderBadData.cxx,NO_VALID,NO_OUTPUT "DATA{${VTK_TEST_INPUT_DIR}/badImageData.xml}"
+  TestXMLReaderBad
+  ,TestXMLReaderBadData.cxx,NO_VALID,NO_OUTPUT "DATA{${VTK_TEST_INPUT_DIR}/badImageData.xml}"
 )
 vtk_add_test_cxx(${vtk-module}CxxTests tests
   TestXMLReaderBadPolyData,TestXMLReaderBadData.cxx,NO_VALID,NO_OUTPUT "DATA{${VTK_TEST_INPUT_DIR}/badPolyData.xml}"
